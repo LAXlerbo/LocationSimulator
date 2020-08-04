@@ -19,6 +19,7 @@ import android.support.v7.widget.SearchView;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -46,7 +47,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private boolean IS_MOCK_SERVICE_START = false;
 
-    private FloatingActionButton beginMock, stopMock, moveToLocation;
+    private Button beginMock, stopMock, moveToLocation;
 
     private String city = "北京";
     private LatLng selected_latlng;   //被模拟的定位
